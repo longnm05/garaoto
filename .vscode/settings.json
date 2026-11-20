@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.outputPath": "WebContent/WEB-INF/classes",
+  "java.project.referencedLibraries": [
+    "D:\\Program_oD\\apache-tomcat-9.0.124\\lib\\servlet-api.jar",
+    "WebContent\\WEB-INF\\lib\\mysql-connector-j-26.10.0.jar"
+  ]
+}

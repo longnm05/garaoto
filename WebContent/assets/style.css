@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.page { max-width: 850px; margin: 50px auto; }
+.panel { padding: 30px; border: 1px solid #555; }
+.narrow-panel { max-width: 600px; margin: auto; }
+h1, h2 { text-align: center; }
+
+.form-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+input, select, button, .button {
+  padding: 8px;
+  border: 1px solid #999;
+  background: #fff;
+  font: inherit;
+}
+
+.actions { display: flex; justify-content: space-between; margin-top: 25px; }
+.button { color: #111; text-decoration: none; }
+table { width: 100%; margin-top: 18px; border-collapse: collapse; }
+th, td { padding: 9px; border: 1px solid #777; text-align: center; }
+.notice { padding: 10px; border: 1px solid #777; }
